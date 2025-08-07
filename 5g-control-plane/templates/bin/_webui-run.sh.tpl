@@ -18,7 +18,7 @@ cp /opt/$FILENAME $CFGPATH/$FILENAME
 cat $CFGPATH/$FILENAME
 echo ""
 
-GOTRACEBACK=crash webconsole -cfg $CFGPATH/$FILENAME
+GOTRACEBACK=crash webconsole -cfg $CFGPATH/$FILENAME || true
 
 if [ $? -ne 0 ]; then
 	echo "Error: webconsole command failed."
