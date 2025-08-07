@@ -19,3 +19,10 @@ cat $CFGPATH/$FILENAME
 echo ""
 
 GOTRACEBACK=crash webconsole -cfg $CFGPATH/$FILENAME
+
+if [ $? -ne 0 ]; then
+	echo "Error: webconsole command failed."
+    GOTRACEBACK=crash webconsole-ui -cfg $CFGPATH/$FILENAME
+fi
+
+
