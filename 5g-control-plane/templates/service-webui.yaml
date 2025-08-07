@@ -26,6 +26,7 @@ spec:
     protocol: TCP
   - name: urlport_configs
     port: {{ .Values.config.webui.urlport_configs.port }}
+    protocol: TCP
 {{- if eq .Values.config.webui.serviceType "NodePort" }}
 {{- if .Values.config.webui.urlport.nodePort }}
     nodePort: {{ .Values.config.webui.urlport.nodePort }}
