@@ -264,7 +264,7 @@ config:
           description: UDM initial local configuration
         configuration:
           nrfUri: https://nrf:29510
-          webuiUri: webui:9876
+          webuiUri: http://webui:5001
           enableNrfCaching: true
           nrfCacheEvictionInterval: 900
           # plmnList:
@@ -308,7 +308,7 @@ config:
           description: UDR initial local configuration
         configuration:
           nrfUri: https://nrf:29510
-          webuiUri: webui:9876
+          webuiUri: http://webui:5001
           # plmnSupportList:
           #   - plmnId:
           #       mcc: "208"
@@ -698,7 +698,7 @@ config:
           description: AUSF initial local configuration
         configuration:
           nrfUri: https://nrf:29510
-          webuiUri: webui:9876
+          webuiUri: http://webui:5001
           enableNrfCaching: true
           nrfCacheEvictionInterval: 900
           sbi:
