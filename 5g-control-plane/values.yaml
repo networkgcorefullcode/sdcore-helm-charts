@@ -241,12 +241,12 @@ config:
           enableAuthentication: false
           spec-compliant-sdf: false
           secure-grpc-server: false  # if 'true', you must set the path to where the credentials (pem and key) are located
-        webui-tls:
-          # pem: "/var/run/certs/tls.crt"
-          # key: "/var/run/certs/tls.key"
-        nfconfig-tls:
-          # pem: "/var/run/certs/tls.crt"
-          # key: "/var/run/certs/tls.key"
+          webui-tls:
+            # pem: "/var/run/certs/tls.crt"
+            # key: "/var/run/certs/tls.key"
+          nfconfig-tls:
+            # pem: "/var/run/certs/tls.crt"
+            # key: "/var/run/certs/tls.key"
 
   udm:
     deploy: true
