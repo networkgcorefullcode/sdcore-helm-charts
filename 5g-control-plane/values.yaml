@@ -220,7 +220,7 @@ config:
       port: 5000
       # Provide nodePort when serviceType is NodePort
       #nodePort: 35000
-    urlport_configs:
+    urlportConfigs:
       port: 5001
     grpc:
       port: 9876
