@@ -220,6 +220,8 @@ config:
       port: 5000
       # Provide nodePort when serviceType is NodePort
       #nodePort: 35000
+    urlport_configs:
+      port: 5001
     grpc:
       port: 9876
     ingress:
@@ -568,7 +570,7 @@ config:
           mongoDBStreamEnable: true
           nfProfileExpiryEnable: true
           nfKeepAliveTime: 60
-          webuiUri: webui:9876
+          webuiUri: http://webui:5001
           sbi:
             scheme: https
             bindingIPv4: "0.0.0.0"
