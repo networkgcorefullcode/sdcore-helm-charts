@@ -281,7 +281,7 @@ config:
             - nudm-ee
             - nudm-pp
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: udm
             tls:
@@ -317,7 +317,7 @@ config:
           #       mcc: "333"
           #       mnc: "88"
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: udr
             tls:
@@ -341,7 +341,7 @@ config:
           pcfName: PCF
           nrfUri: https://nrf:29510
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: pcf
             tls:
@@ -384,7 +384,7 @@ config:
           nrfUri: https://nrf:29510
           webuiUri: webui:9876
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: nssf
             tls:
@@ -479,7 +479,7 @@ config:
           nrfUri: https://nrf:29510
           webuiUri: webui:9876
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: amf
             tls:
@@ -575,7 +575,7 @@ config:
           nfKeepAliveTime: 60
           webuiUri: http://webui:5001
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: nrf
             tls:
@@ -630,7 +630,7 @@ config:
           nrfUri: https://nrf:29510
           webuiUri: webui:9876
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: smf
             tls:
@@ -702,7 +702,7 @@ config:
           enableNrfCaching: true
           nrfCacheEvictionInterval: 900
           sbi:
-            scheme: https
+            scheme: http
             bindingIPv4: "0.0.0.0"
             registerIPv4: ausf
             tls:
